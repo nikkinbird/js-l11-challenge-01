@@ -26,5 +26,9 @@ const displayImage = function(randomImage) {
 
 };
 
-getImages();
+button.addEventListener("click", function() {
+    getImages();
+});
+
+
 
